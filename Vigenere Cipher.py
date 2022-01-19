@@ -1,5 +1,6 @@
-# This function returns the encrypted text generated with the help of the key
+#Code for VIGENERE CIPHER
 
+# This function returns the encrypted text generated with the help of the key
 def encryption(s, Key):
 
     # O(n)--time complexity
@@ -86,7 +87,6 @@ def decryption(s, Key):
 
             output = output + s[i]
     return output
-
 
 if __name__ == "__main__":
     print("Key and Message can only be alphabetic")
