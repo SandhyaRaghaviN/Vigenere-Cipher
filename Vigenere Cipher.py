@@ -1,5 +1,3 @@
-# N. SANDHYA RAGHAVI   AP20110010684   CSE - J
-
 # This function returns the encrypted text generated with the help of the key
 
 def encryption(s, Key):
